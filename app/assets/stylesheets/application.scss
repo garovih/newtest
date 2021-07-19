@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+@import "pages";
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background: red;
+
+    h1 {
+        font-size: 100px;
+        color: white
+    }
+}
